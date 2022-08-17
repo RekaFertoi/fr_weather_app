@@ -21,17 +21,24 @@ li {
   font-size: 16px;
   line-height: 20px;
 }
-li .firstletter {
-  text-transform: capitalize;
-}
 small {
   font-size: 9px;
   margin: 0;
   padding: 0;
 }
-.day-and-descprition {
+.day-and-descprition-one {
   font-size: 16px;
   line-height: 20px;
+}
+.day-and-descprition-one .firstletter {
+  text-transform: capitalize;
+}
+.day-and-descprition-two {
+  font-size: 16px;
+  line-height: 20px;
+}
+.day-and-descprition-two .firstletter {
+  text-transform: capitalize;
 }
 .hum-and-wind {
   font-size: 12px;
