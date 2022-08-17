@@ -22,26 +22,22 @@ li {
   font-size: 16px;
   line-height: 20px;
 }
+li::first-letter {
+  text-transform: capitalize;
+}
 small {
   font-size: 9px;
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
+.day-and-descprition {
+  font-size: 16px;
+  line-height: 20px;
+}
 
-.day-and-descprition-one {
-  font-size: 16px;
-  line-height: 20px;
-}
-.day-and-descprition-one .firstletter {
-  text-transform: capitalize;
-}
-.day-and-descprition-two {
-  font-size: 16px;
-  line-height: 20px;
-}
-.day-and-descprition-two .firstletter {
-  text-transform: capitalize;
-}
 .hum-and-wind {
   font-size: 12px;
   line-height: 16px;
@@ -68,6 +64,7 @@ small {
   line-height: 24px;
   position: relative;
   top: 6px;
+  color: #70757a;
 }
 
 .weather-app-frame {
@@ -78,7 +75,13 @@ small {
   border: 1px solid grey;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 .overview {
   margin-bottom: 20px;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
 }
