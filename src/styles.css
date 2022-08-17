@@ -20,6 +20,8 @@ li {
   padding: 0;
   font-size: 16px;
   line-height: 20px;
+}
+li .firstletter {
   text-transform: capitalize;
 }
 small {
@@ -31,7 +33,6 @@ small {
   font-size: 16px;
   line-height: 20px;
 }
-
 .hum-and-wind {
   font-size: 12px;
   line-height: 16px;
