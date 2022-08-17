@@ -20,8 +20,13 @@ li {
   padding: 0;
   font-size: 16px;
   line-height: 20px;
+  text-transform: capitalize;
 }
-
+small {
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+}
 .day-and-descprition {
   font-size: 16px;
   line-height: 20px;
@@ -56,8 +61,9 @@ li {
 }
 
 .weather-app-frame {
-  max-width: 600px;
+  max-width: 400px;
   margin: 30px 0;
+  margin-bottom: 5px;
   padding: 20px;
   border: 1px solid grey;
   border-radius: 10px;
