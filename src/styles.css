@@ -54,7 +54,7 @@ a {
 }
 
 .temp {
-  font-size: 50px;
+  font-size: 48px;
   margin-right: 5px;
   position: relative;
   top: -8px;
@@ -68,7 +68,7 @@ a {
 }
 
 .weather-app-frame {
-  max-width: 400px;
+  max-width: 600px;
   margin: 30px 0;
   margin-bottom: 5px;
   padding: 20px;
@@ -84,4 +84,22 @@ a {
 .weather-temperature .active {
   color: black;
   cursor: default;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forecast-date {
+  font-size: 15px;
+}
+
+.day-temp {
+  font-size: 13px;
+}
+
+.night-temp {
+  font-size: 13px;
+  color: #70757a;
 }

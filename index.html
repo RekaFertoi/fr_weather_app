@@ -20,7 +20,7 @@
       <div class="weather-app-frame">
         <form id="search-form">
           <div class="row">
-            <div class="col-8">
+            <div class="col-9">
               <input
                 type="search"
                 class="form-control"
@@ -28,7 +28,7 @@
                 id="city-input"
               />
             </div>
-            <div class="col-4">
+            <div class="col-3">
               <input type="submit" value="Search" class="btn btn-secondary" />
             </div>
           </div>
@@ -43,7 +43,7 @@
           </ul>
         </div>
         <div class="row">
-          <div class="col-8">
+          <div class="col-5">
             <div class="d-flex weather-temperature">
               <img src="" alt="weatherimage" id="icon" />
               <span class="temp" id="temperature"></span>
@@ -53,13 +53,29 @@
               >
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-7">
             <ul>
               <li class="hum-and-wind">
                 Humidity: <span id="humidity"></span>%
               </li>
               <li class="hum-and-wind">Wind: <span id="wind"></span> km/h</li>
             </ul>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="row">
+            <div class="col-2">
+              <div class="forecast-date">Fri</div>
+              <img
+                src="http://openweathermap.org/img/wn/01d@2x.png"
+                alt="sunny"
+                width="48"
+              />
+              <div>
+                <span class="day-temp">34 </span>
+                <span class="night-temp">18</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
