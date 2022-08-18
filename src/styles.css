@@ -97,6 +97,7 @@ a {
 
 .day-temp {
   font-size: 13px;
+  font-weight: bold;
 }
 
 .night-temp {
